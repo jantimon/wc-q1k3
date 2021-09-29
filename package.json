@@ -1,0 +1,21 @@
+{
+  "name": "wc-q1k3",
+  "version": "1.0.1",
+  "description": "An homage to Quake on its 25th anniversary (as webcomponent)",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "webpack"
+  },
+  "files": [
+    "dist/main.js"
+  ],
+  "keywords": [],
+  "author": "Dominic Szablewski",
+  "devDependencies": {
+    "arraybuffer-loader": "^1.0.8",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
