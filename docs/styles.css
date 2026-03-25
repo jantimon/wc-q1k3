@@ -16,11 +16,16 @@ html, body {
 }
 
 body {
-  color: var(--text);
   background:
     radial-gradient(ellipse 1200px 700px at 20% 10%, rgba(122, 162, 255, 0.20) 0%, transparent 60%),
     radial-gradient(ellipse 900px 600px at 80% 25%, rgba(110, 231, 183, 0.09) 0%, transparent 55%),
     var(--bg);
+}
+
+/* Scope font/color to page chrome only — do not let them inherit into g-q1k3 */
+.topbar,
+.footer {
+  color: var(--text);
   font: 15px / 1.5 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
